@@ -14,8 +14,8 @@ type DisplayType = {
     setInitialValue: () => void
 }
 
-
-export const Display: git remot DisplayType> = (props) => {
+// другой вариант записи пропсов
+export const Display: React.FC<DisplayType> = (props) => {
 
     const setPresentCountCallback = () => {
         props.setPresentCountCallback(props.presentCount)
