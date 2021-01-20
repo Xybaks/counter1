@@ -1,0 +1,7 @@
+.displays
+{
+    display: flex;
+    flex-direction: row;
+
+    color: greenyellow;
+}
